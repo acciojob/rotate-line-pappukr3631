@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#line {
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+}
+
+#line div {
+	background-color: black;
+	width: 200px;
+	height: 2px;	
+	animation-name: rotateLine;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyFrames rotateLine {
+	from {
+		transform: rotate(0deg);
+	}to {
+		transform: rotate(360deg);
+	}
+}
