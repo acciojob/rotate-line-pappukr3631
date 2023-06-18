@@ -1,5 +1,6 @@
 /*  your css code here. If applicable */
 #line {
+	position: absolute;
 	display: flex;
 	height: 300px;
 	justify-content: center;
