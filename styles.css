@@ -1,13 +1,22 @@
 /*  your css code here. If applicable */
 #line {
 	position: absolute;
-	display: flex;
-	height: 300px;
-	justify-content: center;
-	align-items: center;
+	margin-top: 100px;
+/* 	display: flex; */
+/* 	height: 300px; */
+/* 	justify-content: center; */
+/* 	align-items: center; */
+
+	background-color: black;
+	width: 200px;
+	height: 2px;
+	animation-name: rotateLine;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
-#line div {
+/* #line div {
 	background-color: black;
 	width: 200px;
 	height: 2px;	
@@ -15,7 +24,7 @@
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-}
+} */
 
 @keyFrames rotateLine {
 	from {
